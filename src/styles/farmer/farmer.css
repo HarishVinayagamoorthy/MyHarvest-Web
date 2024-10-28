@@ -1,0 +1,80 @@
+.farmer-product-list-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.farmer-product-category {
+  margin-bottom: 40px;
+}
+
+.farmer-category-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.farmer-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.farmer-product-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.farmer-product-card:hover {
+  transform: scale(1.05);
+}
+.farmer-product-card:hover .icon-col {
+  display: flex;
+}
+
+.farmer-product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.farmer-product-details {
+  text-align: left;
+}
+
+.farmer-product-name {
+  text-align: center;
+}
+.farmer-product-price,
+.farmer-product-delivery {
+  font-size: 1em;
+  margin: 5px 0;
+}
+.farmer-category-icon {
+  width: 80px;
+}
+.farmer-category-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ant-collapse-header {
+  display: flex !important;
+  align-items: center !important;
+}
+.icon-col {
+  display: none;
+}
+.icon-row {
+  height: 20px !important;
+}
+.farmer-about-main-container {
+  width: 500px;
+}

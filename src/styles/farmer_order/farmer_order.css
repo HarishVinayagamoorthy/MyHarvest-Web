@@ -1,0 +1,59 @@
+.farmer-order-po-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.farmer-list-filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.farmer-body-filter-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.view-icon {
+  cursor: pointer;
+}
+.farmer-details-top-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.add-button {
+  background-color: #0a5f6f !important;
+  color: white;
+  border: 1px solid #0a5f6f !important;
+  display: flex;
+  align-items: center;
+}
+
+.add-button:hover {
+  color: white !important;
+}
+
+.farmer-list-header-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.add-order-button {
+  border: 1px solid black !important;
+  border-radius: 50%;
+}
+.product-remove-icon {
+  color: red;
+}
+.number-input {
+  width: 100% !important;
+}

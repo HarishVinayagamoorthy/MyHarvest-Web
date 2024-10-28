@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --layout-header: #194e08;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px !important;
+}
+/* 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+nav a:hover {
+  text-decoration: underline;
+} */
+@import url("layout/layout.css");
+@import url("login/login.css");
+@import url("product_demand/product_demand.css");
+@import url("farmer_order/farmer_order.css");
+@import url("farmer/farmer.css");
+
+/* Customer modules */
+@import url("screen_767/screen_767_products.css");
+@import url("screen_768_1023/screen_768_1023_products.css");
+@import url("screen_1024_1439/screen_1024_1439_products.css");
+@import url("screen_2000_2559/screen_2000_2559_products.css");
+@import url("screen_2560_above/screen_2560_products.css");
+@import url("screen_2560_above/screen_2560_products.css");
+
+@import url("screen_767/screen_767_product_list.css");
+@import url("screen_768_1023/screen_768_1023_product_list.css");
+@import url("screen_1024_1439/screen_1024_1439_product_list.css");
+@import url("screen_2000_2559/screen_2000_2559_product_list.css");
+@import url("screen_2560_above/screen_2560_product_list.css");
+
+
+
+
+
+
+
+
+
+.bread-crumb > ol > li > a:hover {
+  background-color: transparent;
+  color: #75a665;
+}
+.bread-crumb > ol > li > a,
+.bread-crumb > ol > li > span,
+.ant-breadcrumb-separator {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+.bread-crumb > ol > li > span {
+  color: var(--layout-header);
+}
+
+.order-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.customer-order-detail-container {
+  margin-top: 40px;
+}
+.search-box-container > span {
+  border: 2px solid #bdbdbd !important;
+  border-radius: 20px;
+}
+.search-box-container > span > .ant-input-affix-wrapper {
+  border: none !important;
+  border-radius: 20px !important;
+}
+.search-box-container > span > input {
+  border: none !important;
+  border-radius: 20px;
+}
+.search-box-container > span > input > span > button {
+  border: none !important;
+}
+.search-box-container > span > input > span > button :focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+.ant-input-search-button {
+  border: none !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+.save-button {
+  background-color: #194e08 !important;
+  color: white;
+  border: 1px solid #194e08 !important;
+}
+.save-button:hover {
+  color: white !important;
+}
+
+.close-button {
+  background-color: #d42828 !important;
+  color: white;
+  border: 1px solid #d42828 !important;
+}
+.close-button:hover {
+  color: white !important;
+}
+
+.delete-icon,
+.edit-icon {
+  cursor: pointer;
+}
+
+.status-tag {
+  font-weight: bold !important;
+  color: white !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+}
+
+.status-active {
+  background-color: green !important;
+}
+
+.status-closed {
+  background-color: red !important;
+}
+
+.status-revert {
+  background-color: rgb(225, 60, 60) !important;
+}
+
+.status-maturity {
+  background-color: rgb(90, 141, 234) !important;
+}
+
+.status-pending {
+  background-color: rgb(241, 170, 78) !important;
+}
+.modal-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #194e08;
+  color: white;
+  height: 50px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.modal-body {
+  padding: 20px 24px;
+}
+.ant-modal-content {
+  padding: 0px !important;
+}
+.search-box-container > .ant-input-wrapper > .ant-input-outlined:focus-within,
+.search-box-container > .ant-input-wrapper > .ant-input-outlined:hover {
+  border-color: transparent !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
